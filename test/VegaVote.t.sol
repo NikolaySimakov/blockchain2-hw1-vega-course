@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.26;
 
-import "forge-std/Test.sol";
-import "../src/VegaVote.sol";
-import "../src/VegaVoteNFT.sol";
+import {Test} from "forge-std/Test.sol";
+import {VegaVote} from "../src/VegaVote.sol";
+import {VegaVoteNFT} from "../src/VegaVoteNFT.sol";
 
 contract VegaVoteTest is Test {
     VegaVote public vegaVote;
